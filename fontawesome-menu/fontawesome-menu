@@ -32,7 +32,7 @@ main(){
 
   (($#>1)) && shift $((--OPTIND))
 
-  ROFI_MAGIC='-dmenu -markup-rows'
+  ROFI_MAGIC='-dmenu -markup-rows -p Choose -theme gruvbox-dark-soft'
 
   output=${1:-icon}
 
